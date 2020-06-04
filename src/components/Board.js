@@ -71,9 +71,9 @@ class Board extends Component {
 
   winner = () => {
     if(this.state.winner == 1)
-      return <h1> {this.props.playerX} Wins! with <img className = "icon" src ={X}/></h1>
+      return <h1 className = "niceFont"> {this.props.playerX} Wins! with <img className = "icon" src ={X}/></h1>
     else
-      return <h1> {this.props.playerO} Wins! with <img className = "icon" src ={O}/></h1>
+      return <h1 className = "niceFont"> {this.props.playerO} Wins! with <img className = "icon" src ={O}/></h1>
   }
 
 
