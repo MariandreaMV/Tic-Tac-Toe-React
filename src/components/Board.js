@@ -82,8 +82,8 @@ class Board extends Component {
   return(
     <div>
       <div className = "together">
-        <p><img className = "icon" src ={X}/>{this.props.playerX}</p>
-        <p><img className = "icon" src ={O}/> {this.props.playerO}</p>
+        <p className="niceFont"><img className = "icon" src ={X}/>{this.props.playerX}</p>
+        <p className="niceFont"><img className = "icon" src ={O}/> {this.props.playerO}</p>
       </div>
       <div className = "board">
         {this.create_board()}
